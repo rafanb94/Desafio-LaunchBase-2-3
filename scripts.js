@@ -26,3 +26,7 @@ document.querySelector('.close-modal').addEventListener('click', function() {
   modalOverlay.classList.remove('active');
   modalOverlay.querySelector('iframe').src = "";
 });
+
+document.querySelector('.fullsize-modal').addEventListener('click', function(){
+  modal.classList.toggle('maximize-modal');
+})
